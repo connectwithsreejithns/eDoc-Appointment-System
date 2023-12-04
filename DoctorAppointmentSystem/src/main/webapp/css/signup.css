@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+.login{
+    border: 3px;
+    border-radius: 5px;
+    width: 34%;
+    height: 317px;
+    background-color: white;
+}
+body{
+	background-color: #ADD8E6;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+.text-box{
+    border: solid 1px gray;
+    border-radius: 5px;
+    height: 5vh;
+}
+
+.heading{
+	color: #1b62b3;
+}
+
+.subheading{
+	padding-top: 19px;
+    font-size: 15px;
+}
+
+.head-text{
+	margin-top: 170px;
+	padding-top: 31px;
+}
+
+.head-text-two{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.extra-border{
+	background-color: lightgrey;
+}

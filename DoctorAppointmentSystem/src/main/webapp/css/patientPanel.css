@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+h2{
+	color: rebeccapurple;
+	text-align: center;
+}
+.choose{
+	border: none;
+	height: 50px;
+	width: 25%;
+	margin:0 37.5% 37.5%;
+}
+
+.docchoose{
+	height: 120px;
+}
+
+.docapp{
+	
+}
+
+.selectbut{
+	border: none;
+	height: 50px;
+	width: 15%;
+	
+}
+
+.ajaxdoc{
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	justify-content: space-evenly;
+}
+
+.fixbutton{
+	argin: 0 45% 0 45%;
+}

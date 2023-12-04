@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>LOGIN</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/login.css">
+	<script type="text/javascript" src="js/ValidateLogin.js"></script>
+</head>
+
+<body>
+	<center>
+		<div class="login">
+			<h2 class="heading head-text">LOGIN NOW</h2>
+			<form action="login.jsp" class="login-form" name="login-form" onsubmit="return validateForm()">
+				<input type="text" name="uname" placeholder="Username" class="text-box">
+				<input type="password" name="upass" placeholder="Password" class="text-box">
+				<input type="submit" class="login-btn btn-primary btn" value="Login">
+			</form>
+			<h3 class="subheading head-text-two">
+				Not a Member?
+				<a href="signup.html">Sign in now !</a>
+			</h3>
+
+		</div>
+	</center>
+</body>
+
+</html>

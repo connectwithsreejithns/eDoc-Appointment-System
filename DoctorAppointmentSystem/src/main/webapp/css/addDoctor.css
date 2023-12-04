@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+
+
+.adddoc{
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 34%;
+    height: 317px;
+    padding: 20px 20px 20px 20px;
+    margin:auto;
+}
+body{
+	background-color: #ADD8E6;
+}
+form{
+	
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+}
+
+#text-box{
+   border: none;
+   height: 80px;
+   background-color:white;
+}
+
+#textarea-box{
+	 border: none;
+   height: 80px;
+   background-color:white;
+}
+.heading{
+	color: #1b62b3;
+	text-align: center;
+}
+

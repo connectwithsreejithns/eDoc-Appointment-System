@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+body{
+
+}
+.doctor{
+	
+	display: flex;
+	flex-direction: row;
+	gap:30px;
+	margin: auto auto auto 40px;
+}
+
+.remain,.cancelled,.sessionover,.patientnum{
+	background-color: ghostwhite;
+	padding: 20px 20px 20px 20px;
+	margin-bottom: 30px;
+	width: 250px;
+	
+}
+
+.subheading{
+	color: rebeccapurple;
+}
+
+.sub,.heading{
+	margin-left: 40px;
+}
+
